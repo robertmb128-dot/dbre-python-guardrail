@@ -1,5 +1,5 @@
 dbre-guardrail/
-├── guardrail.py # CLI entry point
+├── guardrail.py           # CLI entry point
 ├── README.md
 │
 ├── checks/
@@ -9,10 +9,10 @@ dbre-guardrail/
 │ └── jobs.py
 │
 ├── common/
-│ ├── db.py # Connection + query helpers
-│ ├── logging.py # Structured logging
-│ ├── config.py # Config loading
-│ └── reporting.py # Output generators
+│ ├── db.py                 # Connection + query helpers
+│ ├── logging.py            # Structured logging
+│ ├── config.py             # Config loading
+│ └── reporting.py          # Output generators
 │
 ├── reports/
 │ └── templates/
