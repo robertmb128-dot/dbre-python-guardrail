@@ -63,4 +63,3 @@ class BackupCheck:
             for r in results:
                 f.write(f"| {r['database']} | {r['last_backup']} | {r['age_hours']} | {r['rpo_hours']} | {r['status']} |\n")
         logger.info(f"Markdown report saved to {md_file}")
-
