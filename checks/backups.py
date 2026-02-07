@@ -1,3 +1,4 @@
+BACKUP_QUERY = """
 SELECT
     d.name AS database_name,
     MAX(b.backup_finish_date) AS last_backup_time,
@@ -9,3 +10,4 @@ LEFT JOIN msdb.dbo.backupset b
 WHERE d.state_desc = 'ONLINE'
 GROUP BY d.name
 ORDER BY d.name;
+"""
